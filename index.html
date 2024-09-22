@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVITY 5</title>
+    <link rel="stylesheet" href="BOOSTRAP/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom , #101820,  #36454F, #815b5b, #800000, #855f5f);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-link {
+            transition: transform 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            transform: scale(1.3); /* Adjust the scale factor as needed */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-secondary ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="javascript:void(0)">
+                    <img src="img/4.jpg" width="40px" height="40px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="javascript:void(0)"><strong>HOME</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="javascript:void(0)"><strong>CONTACT</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="javascript:void(0)"><strong>ABOUT</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="javascript:void(0)"><strong>SERVICES</strong></a>
+                        </li>
+                    </ul>
+                    <h5>
+                        <a class="nav-link" href="javascript:void(0)" style="color: white;" data-bs-toggle="modal" data-bs-target="#login">Sign In</a>
+                    </h5>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <br>
+            <div class="row">
+                <!--FIRST COLUMN-->
+                <div class="col-md-3 col-lg-3 col-xl-3 text-light">
+                    <h3 style="text-align: center;"><strong>VISION</strong></h3>
+                    <p style="text-align: justify;">
+                        "Our vision is to transform the automotive industry by creating 
+                        innovative, eco-friendly vehicles that redefine mobility. We aim 
+                        to contribute to a sustainable future by integrating clean energy 
+                        and cutting-edge technology in our designs. Through enhanced safety, 
+                        efficiency, and convenience, we strive to make transportation smarter, more 
+                        accessible, and enjoyable. Our goal is to empower individuals and 
+                        communities, improving the quality of life while preserving the 
+                        environment for future generations, and inspiring freedom in every 
+                        journey."
+                    </p>
+                </div>
+
+                <!--SECOND COLUMN-->
+                <div class="col-md-6 col-lg-6 col-xl-6 text-light">
+                    <h3 style="text-align: center;"><strong>CAROUSEL</strong></h3>
+                    <div id="example" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#example" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#example" data-bs-slide-to="1" class="active" aria-current="true"></button>
+                            <button type="button" data-bs-target="#example" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="img/1.jpg" alt="Car 1" class="d-block" style="width:100%">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="img/2.jpg" alt="Car 2" class="d-block" style="width:100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/3.jpeg" alt="Car 3" class="d-block" style="width:100%">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#example" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#example" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <!--THIRD COLUMN-->
+                <div class="col-md-3 col-lg-3 col-xl-3 text-light">
+                    <h2 style="text-align: center;"><strong>MISSION</strong></h2>
+                    <p style="text-align: justify;">
+                        "Our mission is to deliver innovative, high-quality vehicles that meet 
+                        the evolving needs of our customers while prioritizing sustainability 
+                        and safety. We are committed to reducing our environmental impact through 
+                        eco-friendly practices and advanced technologies. By fostering a culture 
+                        of continuous improvement and customer focus, we aim to provide exceptional 
+                        driving experiences that enhance convenience, efficiency, and connectivity. 
+                        Our goal is to lead the industry in creating smarter, cleaner mobility 
+                        solutions that benefit both people and the planet."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--SECOND ROW-->
+        <hr>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h4 class="fs-3 text-light">The Evolution of Sports Cars: Speed Meets Innovation</h4>
+                    <p style="text-align: justify;" class="text-light">The world of sports cars has transformed
+                       over the decades, combining cutting-edge technology with high-performance engineering. From the 
+                       sleek designs of classic models to the ultra-modern, electric supercars of today, the evolution 
+                       has been marked by an unyielding drive for speed, agility, and innovation. Explore how 
+                       manufacturers have pushed boundaries, incorporating advanced aerodynamics, lighter materials, 
+                       and powerful engines to create the ultimate driving experience..</p>
+                    <a href="#" class="btn btn-danger text-light">Read More...</a>
+                </div>
+                <div class="col">
+                    <h4 class="fs-3 text-light">Top 5 Sports Cars Dominating the Roads in 2024</h4>
+                    <p style="text-align: justify;" class="text-light">Sports cars have always been the pinnacle of automotive excellence, 
+                      and 2024 has seen some remarkable entries. This year’s lineup includes thrilling new models that 
+                      boast superior handling, jaw-dropping acceleration, and eye-catching designs. From the latest 
+                      hypercars to budget-friendly performance vehicles, we break down the top 5 sports cars that have 
+                      set the road on fire with their unmatched capabilities.</p>
+                    <a href="#" class="btn btn-danger text-light">Read More...</a>
+                </div>
+                <div class="col">
+                    <h4 class="fs-3 text-light">Eco-Friendly Speed: The Rise of Electric Sports Cars</h4>
+                    <p style="text-align: justify;" class="text-light">As the automotive industry shifts toward sustainability, 
+                      sports car manufacturers are embracing electric powertrains without sacrificing performance. 
+                      Electric sports cars now rival their traditional counterparts in speed and style, offering 
+                      instant torque and a thrilling driving experience. Discover how leading brands are blending 
+                      eco-consciousness with the exhilaration of speed, paving the way for a greener future in 
+                      high-performance vehicles.</p>
+                    <a href="#" class="btn btn-danger text-light">Read More...</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="py-1 my-3">
+            <ul class="nav justify-content-center border-bottom pb-0 mb-4">
+                <li class="nav-item h6"><a href="#" class="nav-link px-3 text-white">Home</a></li>
+                <li class="nav-item h6"><a href="#" class="nav-link px-3 text-white">Contact</a></li>
+                <li class="nav-item h6"><a href="#" class="nav-link px-3 text-white">About</a></li>
+                <li class="nav-item h6"><a href="#" class="nav-link px-3 text-white">Services</a></li>
+                <li class="nav-item h6"><a href="#" class="nav-link px-3 text-white">Developer</a></li>
+            </ul>
+            <p class="text-center text-light">© 2023 CICS, STA. CRUZ</p>
+        </footer>
+    </div>
+
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header bg-danger">
+                    <h4 class="modal-title" style="color:white;">Sign In</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <label for=""><strong>USERNAME:</strong></label>
+                    <input type="text" class="form-control">
+                    <br>
+                    <label for=""><strong>PASSWORD:</strong></label>
+                    <input type="password" class="form-control">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="AdminPanel/dashboard.html" class="btn btn-danger">Sign In</a>
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                    <a href="AdminPanel/forgotPassword.html">Forgot password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="BOOSTRAP/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
